@@ -1470,44 +1470,42 @@ div.contact-ico {
 }
 .ico {
   margin-top: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .contact-ico i.fas {
   float: left;
   display: block;
   margin: 0 20px;
   color: #00a8d6;
-  font-size: 30px;
+  font-size: 28px;
 }
 .contact-ico i.fa {
   float: left;
   display: block;
-  margin: 0 20px;
+  margin: 0 22px;
   margin-right: 5px;
   color: #00a8d6;
-  font-size: 50px;
+  font-size: 43px;
 }
 .contact-ico h3 {
   margin-top: 1.4rem;
 }
 .ico p {
-  line-height: 20px;
-  padding: 2px 0 1px;
+  line-height: 17px;
 }
 p.fomat {
-  padding: 22px;
-  padding-left: 76px;
+  padding: 12px;
+  padding-left: 66px;
 }
 .flex-container {
   display: flex;
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .flex-container {
     flex-direction: column;
   }
   .col-map {
-    margin-right: 0 !important;
-    flex-basis: 100% !important;
+    margin: 0 !important;
   }
   .ico {
     margin-top: 0;
@@ -1516,37 +1514,48 @@ p.fomat {
   .site-footer p {
     font-size: 16px;
   }
-  .contact-ico i.fas {
-    font-size: 24px;
+  .site-footer h4 {
+    line-height: 1;
+    margin-top: 2px;
+    margin-bottom: 5px;
   }
   .contact-ico i.fa {
     font-size: 36px;
+    margin-left: 3px;
   }
   p.fomat {
     padding: 10px;
-    padding-left: 56px;
+    padding-left: 29px;
   }
   .col-media {
     margin-left: 2rem !important;
   }
-  .col-media i.fas {
+  .col-contact {
+    margin-left: 2rem !important;
+  }
+  .col-contact i.fas {
     font-size: 20px;
+    margin-left: 0px !important;
+    margin-right: 9px !important;
   }
   .col-media i.fa {
     font-size: 20px;
   }
   .ico p {
     line-height: 16px;
-    padding: 0px 0 1px;
+  }
+  .service p {
+    margin-bottom: 0px;
   }
 }
 .col-map {
-  flex-basis: 48%;
-  margin-right: 2rem;
+  flex-basis: 41.3%;
+  margin: 4rem;
+  margin-top: 2rem;
 }
 .col-media {
   margin-top: 0rem;
-  margin-left: 6rem;
+  margin-left: 0;
 }
 .contact-ico p:nth-child(3) {
   color: red;
@@ -1562,7 +1571,7 @@ p.fomat {
 }
 
 .site-footer {
-  background-color: #f1f4f5;
+  background-color: #ffffff;
 
   color: #aaaaaa;
   font-family: "Raleway", sans-serif;
@@ -1581,22 +1590,27 @@ p.fomat {
 .footer-menu li a:hover {
   color: #00a8d6;
 }
-
+.nav-footer {
+  background: rgb(0, 0, 0);
+}
 .copyright-text {
+  color: #fff;
   margin-top: 1px;
   font-weight: 700;
-
-  font-size: 13px;
+  padding: 12px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 .copyright-text a {
-  color: #aaaaaa;
+  color: #fff;
   text-decoration-line: underline !important;
   font-style: italic;
+  font-size: 16px;
 }
 .copyright-text a:hover {
   color: #00a8d6;
 }
+
 .pposition {
   align: center;
   margin: 0 20px;
@@ -1606,6 +1620,18 @@ p.fomat {
 /*------------------------------------------------------
 	RESPONSIVE STYLES 
 --------------------------------------------------------*/
+@media (max-width: 767px) {
+  .col-sm-4 {
+    float: left;
+    width: 50%;
+  }
+  @media (max-width: 328px) {
+    .col-sm-4 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
 @media (max-width: 991px) {
   .site-header {
     padding: 40px 0;

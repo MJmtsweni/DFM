@@ -1640,6 +1640,10 @@ p.fomat {
     padding: 40px 0;
   }
 
+  svg {
+    height: 85px;
+  }
+
   .first-widget {
     margin-top: 0;
   }
